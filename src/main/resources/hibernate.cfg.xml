@@ -6,7 +6,7 @@
 	<session-factory>
 		<!-- Database connection settings -->
 		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-		<property name="connection.url">jdbc:mysql://mysql:3306/library_simple</property>
+		<property name="connection.url">jdbc:mysql://mysql/library_simple</property>
 		<property name="connection.username">root</property>
 		<property name="connection.password">password</property>
 
