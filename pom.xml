@@ -37,12 +37,12 @@
 		<maven.compiler.source>1.6</maven.compiler.source>
 		<maven.compiler.target>1.6</maven.compiler.target>
         <hibernate.version>5.1.0.Final</hibernate.version>
-        <mysql.connector.version>5.0.8</mysql.connector.version>
+       
         <hibernate.validator.version>5.2.4.Final</hibernate.validator.version>
         <commons.validator.version>1.5.0</commons.validator.version>
         <jstl.version>1.2</jstl.version>
         <hibernate.version>5.1.0.Final</hibernate.version>
-        <javax.servlet.api.version>3.1.0</javax.servlet.api.version>
+      
         <javax.servlet.jsp-api.version>2.3.1</javax.servlet.jsp-api.version>
     </properties>
 
@@ -96,18 +96,10 @@
         </dependency>
 
         <!-- MySQL -->
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>${mysql.connector.version}</version>
-        </dependency>
+       
 
         <!-- Servlets -->
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
-            <version>${javax.servlet.api.version}</version>
-        </dependency>
+     
         <dependency>
             <groupId>javax.servlet.jsp</groupId>
             <artifactId>javax.servlet.jsp-api</artifactId>
@@ -168,14 +160,7 @@
 
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>1.5</source>
-                    <target>1.5</target>
-                </configuration>
-            </plugin>
+           
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
